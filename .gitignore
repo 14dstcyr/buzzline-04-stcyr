@@ -8,6 +8,13 @@
 
 # Compiled Python files
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # macOS system files
 .DS_Store
+
+# Ignore Kafka / app logs
+log/
+logs/
