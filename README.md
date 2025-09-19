@@ -259,8 +259,10 @@ python producers/project_producer_case.py
 ### Consumer Terminal
 
 ### Run my custom consumer:
-python consumers/project_consumer_stcyr.py
 
+```bash
+python consumers/project_consumer_stcyr.py
+```
 
 ## How To Stop a Continuous Process
 
