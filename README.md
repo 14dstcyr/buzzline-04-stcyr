@@ -258,7 +258,7 @@ python producers/project_producer_case.py
 
 ### Consumer Terminal
 
-# Run my custom consumer:
+### Run my custom consumer:
 python consumers/project_consumer_stcyr.py
 
 
