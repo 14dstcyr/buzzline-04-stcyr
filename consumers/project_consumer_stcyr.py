@@ -120,7 +120,9 @@ def process_message(message: str) -> None:
                 sentiments.append(sentiment)
 
                 logger.info(f"Message at {timestamp_str} → sentiment={sentiment}")
+                print(f"✅ Added point → {timestamp_str} : {sentiment}")  # debug print
                 update_chart()
+
             else:
                 logger.warning(f"Missing sentiment or timestamp: {message_dict}")
         else:
