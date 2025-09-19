@@ -240,6 +240,28 @@ When done, remember to kill the associated terminals for the producer and consum
 
 ---
 
+## Task 6. Start My Custom Consumer (Kafka-based Sentiment Tracker)
+
+This task uses the **provided project producer** and my new **custom consumer**.
+
+- **Description:** Consumes JSON messages from Kafka and extracts `sentiment` + `timestamp`.  
+- **Insight:** Visualizes sentiment trend over time.  
+- **Chart type:** Line chart (time vs. sentiment).  
+
+### Producer Terminal
+
+Run the provided project producer:
+
+```bash
+python producers/project_producer_case.py
+```
+
+### Consumer Terminal
+
+# Run my custom consumer:
+python consumers/project_consumer_stcyr.py
+
+
 ## How To Stop a Continuous Process
 
 To kill the terminal, hit CTRL c (hold both CTRL key and c key down at the same time).
