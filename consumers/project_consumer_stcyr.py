@@ -90,8 +90,11 @@ def update_chart():
     plt.xticks(rotation=45, ha="right")
     plt.tight_layout()
 
-    plt.draw()
+        plt.draw()
     plt.pause(0.01)
+
+    # Save the latest chart snapshot (overwrite each time)
+    plt.savefig("images/sentiment_trend_example.jpg")
 
 
 #####################################
